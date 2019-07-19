@@ -1,16 +1,16 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Navbar from './Navbar';
-import Home from './Home';
+import Header from './components/Header';
+import Home from './components/Home';
 import Performances from './components/Performances';
-import School from './School';
-import Footer from './Footer';
+import School from './components/School';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Header />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/performances" component={Performances} />

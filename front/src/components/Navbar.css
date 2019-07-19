@@ -1,0 +1,23 @@
+.Navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar ul li {
+  list-style-type: none;
+}
+.Navbar a {
+  display: block;
+  padding: 0.5em;
+  margin: 0 0.2em;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 2px 2px 0 black;
+  background-color: #be2f29;
+  color: white;
+  font-size: 12pt;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px black;
+}

@@ -1,0 +1,13 @@
+.Header {
+  height: 100px;
+  background-color: #be2f29;
+  background: linear-gradient(to bottom, #ff670f, #be2f29, #be2f29);
+  text-align: center;
+}
+.Header h1 {
+  margin: auto;
+  font-size: 50px;
+  color: yellow;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+}
